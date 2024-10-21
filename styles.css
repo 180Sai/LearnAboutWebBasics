@@ -1,10 +1,8 @@
-body
-{
-    font-family: Arial, sans-serif;
+body {
+    font-family: Calibri, sans-serif;
 }
 
-header
-{
+header {
     background-color: #121212;
     color: white;
     text-align: center;
@@ -12,8 +10,7 @@ header
     filter: drop-shadow(0 0 0.75rem black);
 }
 
-section.about
-{
+section.about {
     padding: 15px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -22,13 +19,11 @@ section.about
     display: flex;
 }
 
-section.about p
-{
+section.about p {
     font-weight: bold;
 }
 
-div.aboutme
-{
+div.aboutme {
     margin: 0 auto;
     width: 50%;
     padding: 15px;
@@ -36,48 +31,43 @@ div.aboutme
     border-radius: 20px;
 }
 
-.mypicture
-{
+.mypicture {
     border: solid #ffffff;
     padding: 15px;
     border-radius: 20px;
     margin-right: 100px;
 }
 
-h2.projects
-{
+h2.projects {
     padding-top: 15px;
     padding-left: 15px;
     font-size: 32px;
 }
 
-section.projects
-{
+section.projects {
     padding: 15px;
     padding-top: 0px;
     display: flex;
 }
 
-section.projects div
-{
+section.projects div {
     border: solid;
     border-radius: 5px;
     padding: 15px;
     margin-right: 15px;
 }
 
-footer.findme
-{
+footer.findme {
     text-align: center;
     padding: 25px;
 }
 
-button
-{
+button {
     color: white;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     background-color: #34a853;
+    border-color: #34a853;
 }
